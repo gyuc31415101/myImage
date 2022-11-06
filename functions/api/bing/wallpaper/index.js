@@ -13,7 +13,7 @@ export async function onRequest(context) {
     const return_data={
         "status":true,
         "message":"操作成功",
-        "data": bing_data.images
+        "data": bing_data.imagess
     }
     const info = JSON.stringify(return_data);
     return new Response(info);
